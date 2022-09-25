@@ -8,13 +8,6 @@ public class Undo {
 	private static Undo instance;
 	private String value;
 
-//	@Override
-//	public String toString() {
-//		return "Undo [pedidos=" + pedidos + "]";
-//	}
-	
-	
-
 	public ArrayList<String> getPedidos() {
 		return pedidos;
 	}
