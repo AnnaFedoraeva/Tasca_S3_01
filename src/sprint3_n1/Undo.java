@@ -70,9 +70,6 @@ public class Undo {
 		if (instance == null) {
 			instance = new Undo(value);
 		} 
-		//else {
-			//System.out.println("No es pot crear el objecte " + nom + " perque ja existeix un objecte de la clase Undo");
-		//}
 
 		return instance;
 	}
